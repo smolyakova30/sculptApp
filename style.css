@@ -7,6 +7,8 @@ body{
     padding: 0;
 }
 
+/*NAVBAR*/
+
 .navbar {
     background-color: #eef3f3;
     display: flex;
@@ -37,7 +39,7 @@ body{
 }
 
 .navbar-links li:hover{
-    background-color: yellow;
+    text-decoration: underline;
 }
 
 .toggle-button {
@@ -90,4 +92,79 @@ body{
     .navbar-links.active {
         display: flex;
     }
+
+    .container {
+        flex-direction: column;
+    }
+
+}
+
+
+/*GOALS*/
+
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.goal{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    border: solid black;
+    margin: auto;
+    min-height: 350px;
+}
+
+.goalPar {
+    font-size: 25px;
+}
+
+
+.containerTrainers {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trainer {
+    background-color: #eef3f3;
+    margin: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+}
+
+.trainerImg {
+    padding: 20px;
+    border: solid #daa35b 1px;
+}
+
+.trainerBio {
+    padding: 15px;
+}
+
+.trainerBio h2 {
+    color: #daa35b;
+    margin: auto;
+    font-size: 30px;
+}
+.trainerBio h4 {
+    color: #daa35b 
+}
+
+.trainerBio p {
+    font-size: 20px;
 }
