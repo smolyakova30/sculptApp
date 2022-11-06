@@ -5,6 +5,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(85, 85, 89);
 }
 
 /*NAVBAR*/
@@ -60,6 +62,12 @@ body{
     border-radius: 10px;
 }
 
+.navbar-links .link {
+    color: #daa35b;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
@@ -95,8 +103,16 @@ body{
 
     .container {
         flex-direction: column;
+       
     }
 
+}
+
+/*HEADING*/
+
+h1, h2, h3, h4 {
+    color: #daa35b;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -106,6 +122,7 @@ body{
     display: flex;
     justify-content: flex-start;
     margin-left: 100px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container {
@@ -121,6 +138,7 @@ body{
     border: solid black;
     margin: auto;
     min-height: 350px;
+    background-color: #eef3f3;
 }
 
 .goalPar {
@@ -168,3 +186,97 @@ body{
 .trainerBio p {
     font-size: 20px;
 }
+
+
+/*REACH OUT*/
+
+.contact {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    min-width: 50%;
+    background-color: #eef3f3;
+    text-align: center;
+    flex: 1;
+    max-width: 50%;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.map{
+    margin-top: 75px;
+    border: solid #daa35b 2px;
+    padding: 10px;
+}
+
+.contact-info iframe {
+    height: 400px;
+  }
+
+  .contact-info div {
+    background-color: #eef3f3;
+  }
+
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+  }
+
+
+  .contact-form input, .contact-form textarea {
+    border: 1px solid #daa35b;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    border: none;
+    background: #daa35b;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .contact-form button:hover {
+    background: #ffba08;
+  }
+  
+  .contact-info a {
+    color: var(--primary-color);
+  }
+
+  #contact-name, #contact-message{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .primary-border {
+    border-bottom: 3px solid;
+    border-color: #daa35b;
+    padding-bottom: 20px;
+    width: 50%;
+  }
+
+
